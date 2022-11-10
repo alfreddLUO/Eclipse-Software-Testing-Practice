@@ -1,0 +1,46 @@
+package quadEqTest;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import quadEq.QuadEqSolver;
+
+
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
+
+
+class SolveEqTestParamFile {
+	
+	private QuadEqSolver quadEqSolver;
+	@BeforeAll
+	static void setUpBeforeClass() throws Exception {
+	}
+
+	@AfterAll
+	static void tearDownAfterClass() throws Exception {
+	}
+
+	@BeforeEach
+	void setUp() throws Exception {
+		quadEqSolver=new QuadEqSolver();
+	}
+
+	@ParameterizedTest
+	@CsvFileSource(resources="/testData/testSolveEq.csv")
+	@Test
+	void testSolveEq(double a,double b, double c, double expectedroot1, double expectedroot2, String expectedRootType, String msg ) {
+		quadEqSolver.setCoeff(a, b, c);
+		assertEquals(quadEqSolver.solveEq(),expectedRootType,msg);
+		if(expectedRootType!="All real numbers are roots"||expectedRootType!="No real root") {
+			double actualRoot1=quadEqSolver.getRoot1();
+			double actualRoot2=quadEqSolver.getRoot2();
+			assertEquals(actualRoot1,expectedroot1,0.0001,msg);
+			assertEquals(actualRoot2,expectedroot2,0.0001,msg);
+		}
+	}
+
+}

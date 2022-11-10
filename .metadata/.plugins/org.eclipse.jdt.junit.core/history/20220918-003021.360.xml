@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SolveQEqTest" project="cs3346Assignment1" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="quadEqTest.SolveQEqTest" time="0.08" displayname="SolveQEqTest" uniqueid="[engine:junit-jupiter]/[class:quadEqTest.SolveQEqTest]">
+    <testcase name="testSolveQEq_01" classname="quadEqTest.SolveQEqTest" time="0.063" displayname="testSolveQEq_01()" uniqueid="[engine:junit-jupiter]/[class:quadEqTest.SolveQEqTest]/[method:testSolveQEq_01()]"/>
+    <testcase name="testSolveQEq_02" classname="quadEqTest.SolveQEqTest" time="0.004" displayname="testSolveQEq_02()" uniqueid="[engine:junit-jupiter]/[class:quadEqTest.SolveQEqTest]/[method:testSolveQEq_02()]"/>
+    <testcase name="testSolveQEq_03" classname="quadEqTest.SolveQEqTest" time="0.0" displayname="testSolveQEq_03()" uniqueid="[engine:junit-jupiter]/[class:quadEqTest.SolveQEqTest]/[method:testSolveQEq_03()]"/>
+    <testcase name="testSolveQEq_04" classname="quadEqTest.SolveQEqTest" time="0.004" displayname="testSolveQEq_04()" uniqueid="[engine:junit-jupiter]/[class:quadEqTest.SolveQEqTest]/[method:testSolveQEq_04()]"/>
+    <testcase name="testSolveQEq_05" classname="quadEqTest.SolveQEqTest" time="0.003" displayname="testSolveQEq_05()" uniqueid="[engine:junit-jupiter]/[class:quadEqTest.SolveQEqTest]/[method:testSolveQEq_05()]"/>
+  </testsuite>
+</testrun>

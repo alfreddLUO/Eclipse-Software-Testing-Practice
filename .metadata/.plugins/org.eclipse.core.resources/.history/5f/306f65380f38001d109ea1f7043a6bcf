@@ -1,0 +1,39 @@
+// File QuadEq.java BEGIN ================================================
+// 
+package quadEq;
+
+// Given class for use only.  Do NOT modify this file in any way.
+// Do NOT submit this file.  It will be ignored even if submitted.
+public class QuadEq {
+	// Coefficients of the equation as the attributes
+	protected double coeffA, coeffB, coeffC;
+	
+	// Define DNULL (the Null value for type double) as NaN (Not-a-Number)
+	final double DNULL = Double.NaN;
+
+	// Pre-defined strings describing the characteristics of roots
+	// ... for solveQEq() only
+	final String NOT_QE = "Not a quadratic equation";
+	final String EQUAL_ROOTS = "Two equal real roots";
+
+	// ... for BOTH solveQEq() and solveEq()
+	final String NO_ROOT = "No real root";
+	final String TWO_ROOTS = "Two distinct real roots";
+
+	// ... for solveEq() only
+	final String ONE_ROOT = "One real root only";
+	final String ALL_ROOTS = "All real numbers are roots";
+	
+	// Default empty constructor
+	public QuadEq() {
+	}
+
+	// Setter method to set the values of the coefficients
+	public void setCoeff(double a, double b, double c)throws Exception {
+		coeffA = a;
+		coeffB = b;
+		coeffC = c;
+	}
+}
+// 
+// File QuadEq.java  END  ================================================

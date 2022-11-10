@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PokerTest" project="PokerGame1" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="testPoker.PokerTest" time="0.057" displayname="PokerTest" uniqueid="[engine:junit-jupiter]/[class:testPoker.PokerTest]">
+    <testcase name="test22234" classname="testPoker.PokerTest" time="0.037" displayname="test22234()" uniqueid="[engine:junit-jupiter]/[class:testPoker.PokerTest]/[method:test22234()]"/>
+    <testcase name="test22334" classname="testPoker.PokerTest" time="0.002" displayname="test22334()" uniqueid="[engine:junit-jupiter]/[class:testPoker.PokerTest]/[method:test22334()]"/>
+    <testcase name="test333XX" classname="testPoker.PokerTest" time="0.002" displayname="test333XX()" uniqueid="[engine:junit-jupiter]/[class:testPoker.PokerTest]/[method:test333XX()]"/>
+    <testcase name="test66667" classname="testPoker.PokerTest" time="0.002" displayname="test66667()" uniqueid="[engine:junit-jupiter]/[class:testPoker.PokerTest]/[method:test66667()]"/>
+    <testcase name="testA2345" classname="testPoker.PokerTest" time="0.005" displayname="testA2345()" uniqueid="[engine:junit-jupiter]/[class:testPoker.PokerTest]/[method:testA2345()]"/>
+    <testcase name="testAXXXK" classname="testPoker.PokerTest" time="0.0" displayname="testAXXXK()" uniqueid="[engine:junit-jupiter]/[class:testPoker.PokerTest]/[method:testAXXXK()]"/>
+    <testcase name="testJJKKK" classname="testPoker.PokerTest" time="0.002" displayname="testJJKKK()" uniqueid="[engine:junit-jupiter]/[class:testPoker.PokerTest]/[method:testJJKKK()]"/>
+    <testcase name="testNoCards" classname="testPoker.PokerTest" time="0.001" displayname="testNoCards()" uniqueid="[engine:junit-jupiter]/[class:testPoker.PokerTest]/[method:testNoCards()]"/>
+  </testsuite>
+</testrun>
